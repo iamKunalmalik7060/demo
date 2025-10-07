@@ -15,10 +15,12 @@ public class GetDataFromPropertiesFile {
 		String URL = pObj.getProperty("url");
 		String USERNAME = pObj.getProperty("un");
 		String PASSWORD = pObj.getProperty("pwd");
+		String ADD=pObj.getProperty("add");
 
 		System.out.println(BROWSER);
 		System.out.println(URL);
 		System.out.println(USERNAME);
 		System.out.println(PASSWORD);
+		System.out.println(ADD);
 	}
 }
