@@ -16,4 +16,26 @@ public class HomePage {
 	public WebElement getLogo() {
 			return logo;
 		}
+	
+	@FindBy(linkText = "Organizations")
+	private WebElement orgLink;
+
+	public WebElement getOrgLink() {
+		return orgLink;
+	}
+
+	@FindBy(css = "img[src='themes/softed/images/user.PNG']")
+	private WebElement profilePic;
+
+	public WebElement getProfilePic() {
+		return profilePic;
+	}
+
+	@FindBy(linkText = "Sign Out")
+	private WebElement signOutLink;
+
+	public WebElement getSignOutLink() {
+		return signOutLink;
+	}
+	
 }
